@@ -1,20 +1,20 @@
-import { makeStyles } from "@mui/styles";
+import { makeStyles } from '@mui/styles';
 
 export default makeStyles((theme) => ({
-    toolbar: {
-        height:"80px",
-        display:"flex",
-        justifyContent:"space-between",
-        mariginLeft:"240px",
-        [theme.breakpoints.down('sm')]: {
-            marginLeft: 0,
-            flexwrap: 'wrap',
-        }
+  toolbar: {
+    height: '80px',
+    display: 'flex',
+    justifyContent: 'space-between',
+    mariginLeft: '240px',
+    [theme.breakpoints.down('sm')]: {
+      marginLeft: 0,
+      flexwrap: 'wrap',
     },
-    menuButton: {
-        marginRight: theme.spacing(2),
-        [theme.breakpoints.up('sm')]: {
-            display: 'none',
-        }
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+    [theme.breakpoints.up('sm')]: {
+      display: 'none',
     },
-}))
+  },
+}));
