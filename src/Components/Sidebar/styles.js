@@ -1,12 +1,19 @@
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from "@mui/styles";
 
 export default makeStyles((theme) => ({
   imageLink: {
-    display: 'flex',
-    justifyContent: 'center',
-    padding: '10px 0',
+    display: "flex",
+    justifyContent: "center",
+    padding: "10px 0",
   },
   image: {
-    width: '70%',
+    width: "70%",
+  },
+  links: {
+    color: theme.palette.text.primary,
+    textDecoration: "none",
+  },
+  genereImages: {
+    color: theme.palette.mode === "dark" ? "dark" : "invert(1)",
   },
 }));
