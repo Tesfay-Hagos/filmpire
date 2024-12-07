@@ -36,8 +36,8 @@ const NavBar = () => {
               <Menu />
             </IconButton>
           )}
-          <IconButton sx={{ ml: 1, color: red }} onClick={() => ({})}>
-            {theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
+          <IconButton color="inherit" sx={{ ml: 1 }} onClick={() => ({})}>
+            {theme.palette.mode === 'dark' ? <Brightness4 /> : <Brightness7 />}
           </IconButton>
           {!isMobile && 'Search...'}
           <div>

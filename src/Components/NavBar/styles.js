@@ -6,10 +6,10 @@ export default makeStyles((theme) => ({
     height: '80px',
     display: 'flex',
     justifyContent: 'space-between',
-    mariginLeft: '240px',
+    marginLeft: '240px',
     [theme.breakpoints.down('sm')]: {
       marginLeft: 0,
-      flexwrap: 'wrap',
+      flexWrap: 'wrap',
     },
   },
   menuButton: {
